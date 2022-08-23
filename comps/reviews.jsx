@@ -13,6 +13,10 @@ export class _Reviews extends React.Component {
     componentDidMount() {
         this.loadReviews()
     }
+    componentDidUpdate(prevProps){
+        if(prevProps.match.params.bookId !== this.props.match.params.bookId)
+        this.loadReviews()
+    }
     loadReviews = () => {
         bookService.getBookById(this.props.match.params.bookId)
             .then(book => {

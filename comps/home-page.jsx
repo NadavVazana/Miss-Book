@@ -2,10 +2,6 @@ const {Link} = ReactRouterDOM
 
 export function Home () {
 
-
-
-
-
     return  <section>
         <div className="home-container">
         <h1 className="animate__animated animate__backInDown" >Welcome to Miss Book!</h1>

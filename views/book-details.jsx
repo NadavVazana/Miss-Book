@@ -9,16 +9,17 @@ export class BookDetails extends React.Component {
     }
 
     componentDidMount(){
+        
         this.loadBook()
     }
 
     componentDidUpdate(prevProps){
         if(prevProps.match.params.bookId !== this.props.match.params.bookId)
-            this.loadBook()
+            {this.loadBook()
+            }
     }
 
     loadBook =() =>{
-        console.log('load');
         const {bookId} = this.props.match.params
         bookService.getBookById(bookId)
         .then(book =>{
@@ -68,7 +69,6 @@ export class BookDetails extends React.Component {
        const {book} = this.state
        if(!book) return <div></div>
        const nextBookId = bookService.getNextBookId(book.id)
-       console.log(nextBookId);
     if(!book) return <h1>Loading...</h1>
     return <section className="book-details">
         <div className="img-container-details">
