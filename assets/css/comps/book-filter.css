@@ -1,0 +1,8 @@
+.book-filter{
+    margin-top: 20px;
+}
+
+.book-filters{
+    display: flex;
+    gap: 10px;
+}

@@ -1,0 +1,24 @@
+.book-preview{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* gap: 10px; */
+    text-align: center;
+    transition: box-shadow 0.3s;
+}
+
+.book-preview:hover{
+    box-shadow: 5px 5px 15px 5px #000000b5;
+    transition: box-shadow 0.3s;
+    cursor: pointer;
+}
+
+.book-preview h1{
+    font-size: 1.5rem;
+    background-color: rgba(239, 206, 159, 0.475);
+}
+
+.book-title-preview{
+    padding: 10px;
+    text-transform: capitalize;
+}

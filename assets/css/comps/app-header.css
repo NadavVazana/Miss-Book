@@ -1,0 +1,41 @@
+.app-header{
+    display:flex;
+    justify-content: space-between;
+    background-color: rgb(238, 213, 180);
+    padding: 20px 0 ;
+    position: fixed;
+    width: 100%;
+    border-bottom: whitesmoke 1px solid;
+    align-items: center;
+    z-index: 1;
+    
+    
+}
+.app-header nav> *{
+    margin-inline-end: 30px;
+    font-size: 1.1rem;
+    user-select: none;
+    
+}
+.app-header nav> *:not(:last-child){
+    margin-inline-end: 40px;
+
+}
+.logo-icon{
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    left: 140px;
+    top: 15px;
+    cursor: pointer;
+}
+
+.active{
+    color: blue;
+}
+
+.logo{
+    cursor: pointer;
+    user-select: none;
+    margin-inline-start: 20px;
+}
