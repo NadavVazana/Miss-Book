@@ -26,7 +26,7 @@ Or you can clone the code to your computer and make it work with Live Server:
 git clone https://github.com/NadavVazana/Miss-Book
 ```
 
-## <a id="authors" /> Showcase
+## <a id="showcase" /> Showcase
 
 ### Homepage
 
