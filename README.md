@@ -10,6 +10,8 @@ Miss Book simulates a digital library/book store.
 
 > [Showcase](#showcase)
 
+> [Technologies](#tech)
+
 > [Authors](#authors)
 
 ## <a id="desc" /> Miss Book Description
@@ -45,6 +47,10 @@ In this page the user can see all the book in the library, filter them by name a
 In this page the user can see the full details on the book he clicked on. the user can leave a review about the book and view all the reviews on it. also the user can route to the next book from here without going back to the books page.
 
 <img src="https://res.cloudinary.com/ds8xkm0ue/image/upload/v1667122061/Untitled_bdokia.png" />
+
+## <a id="tech" /> Technologies
+
+The application uses the software architectural of Model View Controller.
 
 ## <a id="authors" /> Authors
 
